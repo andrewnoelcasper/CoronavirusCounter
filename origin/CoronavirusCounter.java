@@ -1,8 +1,9 @@
 // Authors: Andrew Casperson & Thomas Lasbury
 
 //Basic UI Libraries 
-import java.awt.*;
-import javax.swing.*;
+import java.awt.Color;
+import javax.swing.JFrame;
+import org.jsoup.Jsoup;
 
 public class CoronavirusCounter
 {
