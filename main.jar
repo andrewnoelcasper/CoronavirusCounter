@@ -1,0 +1,47 @@
+//library for creating windows
+import java.awt.;
+//creates user interfaces
+import javax.swing.;
+/
+ * Write a description of class test here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class test
+{
+    // instance variables - replace the example below with your own
+    private static void createWindow()
+     {
+         JFrame frame = new JFrame("Simple GUI");
+         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         frame.getContentPane().setBackground(Color.black);
+         frame.setSize(1000,800);
+         //This displays the wondow
+         frame.setLocationRelativeTo(null);
+
+         frame.setVisible(true);
+     }
+
+    /
+     * Constructor for objects of class test
+     */
+    public test()
+    {
+        // initialise instance variables
+
+    }
+
+    public static void main(String []args)
+    { 
+        test c = new test();
+        test.createWindow();
+
+
+
+
+
+    }
+
+
+}
