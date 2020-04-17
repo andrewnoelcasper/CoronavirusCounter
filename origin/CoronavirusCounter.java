@@ -24,7 +24,6 @@ public static void main(String []args)
          frame.setSize(1000,800);
          //This displays the wondow
          frame.setLocationRelativeTo(null);
-
          frame.setVisible(true);
     }
 
